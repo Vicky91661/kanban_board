@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+.card{
+    width: 400px;
+    height:fit-content;
+    /* background-color: aqua; */
+    border-radius: 10px;
+    margin-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Upper{
+ 
+    display: flex;
+    gap: 289px;
+    /* background-color: burlywood; */
+    height:50px;
+    padding-left: 12px;
+    border-radius: 10px;
+}
+.dis{
+    
+    margin-top: 20px;
+    color: grey;
+}
+.profile{
+    
+    position: relative;
+    margin-top: 15px;
+    display: inline-block;
+    
+}
+.profile_image{
+    border-radius: 100%;
+    width: 25px;
+     
+}
+#Circle{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    border: 1px white solid;
+    background-color: grey;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    
+}
+
+/* Updated CSS for a simple round checkbox without a checkmark after check */
+.container{
+    display: flex;
+    /* background-color: #66bb6a; */
+    height: 60px;
+    
+}
+.title{
+    background-color: antiquewhite;
+    margin-top: 0px;
+    padding-top: -10px;
+}
+.round-checkbox {
+    position: relative;
+    display: inline-block;
+    /* background-color: blueviolet; */
+    margin-top: 18px;
+    
+}
+
+.round-checkbox input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.round-checkbox label {
+    position: relative;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.round-checkbox input[type="checkbox"]:checked+label {
+    background-color: #66bb6a;
+    /* Change color when checked */
+    border-color: #66bb6a;
+    /* Change border color when checked */
+}
+
+
+.lower{
+    display: flex;
+}
+.bottomRight{
+    display: flex;
+    margin-left: 20px;
+}
+.circle{
+    margin-top: 8px;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: grey;
+    margin-right: 6px; 
+}
